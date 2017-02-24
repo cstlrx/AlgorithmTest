@@ -36,6 +36,9 @@ public class FibonacciTest {
 	// return array[n - 1];
 	//
 	// }
+	/*
+	 * 定义三个变量，分别表示当前，上一个，上上一个元素。
+	 */
 	public static int Fibonacci(int n) {
 		if (n <= 0) {
 			return 0;

@@ -33,7 +33,7 @@ public class QueueWithTwoStack {
 			}
 			return popEle;
 		}
-
+		// ˼·2
 		// int count = 0;
 
 		// public void push(int node) {

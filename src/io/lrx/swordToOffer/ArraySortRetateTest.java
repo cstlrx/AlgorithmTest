@@ -1,5 +1,7 @@
 package io.lrx.swordToOffer;
 
+import java.util.ArrayList;
+
 /**
  * @author lrx
  * @time 2016-11-6ионГ11:29:29
@@ -34,6 +36,11 @@ public class ArraySortRetateTest {
 	}
 
 	public static void main(String[] args) {
-
+		ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
+		ArrayList<Integer> oneWay = new ArrayList<Integer>();
+		
+		oneWay.add(1);
+		result.add(oneWay);
+		result.re
 	}
 }
