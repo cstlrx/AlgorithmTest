@@ -6,17 +6,6 @@ import java.util.ArrayList;
  * @author lrx
  * @time 2017-2-23ионГ11:11:17
  */
-class TreeNode {
-	int val = 0;
-	TreeNode left = null;
-	TreeNode right = null;
-
-	public TreeNode(int val) {
-		this.val = val;
-
-	}
-
-}
 
 public class FindPath {
 	public static ArrayList<Integer> change(ArrayList<TreeNode> al) {

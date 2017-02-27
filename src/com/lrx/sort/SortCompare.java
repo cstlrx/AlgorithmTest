@@ -23,6 +23,8 @@ public class SortCompare {
 			Insertion.sort(a);
 		if (arg.equals("Insertion"))
 			Insertion.sort(a);
+		if (arg.equals("Insertion2"))
+			Insertion2.sort(a);
 		return timer.elapsedTime();
 	}
 
@@ -56,7 +58,7 @@ public class SortCompare {
 
 class A {
 	public static void main(String[] args) {
-		String[] a = { "Quick", "Merge", "10000", "120" };
+		String[] a = { "Insertion2", "Merge", "100", "1" };
 		// SortCompare.main(new String[2]);
 		SortCompare sc = new SortCompare();
 		sc.main(a);

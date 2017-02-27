@@ -38,9 +38,9 @@ public class ArraySortRetateTest {
 	public static void main(String[] args) {
 		ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
 		ArrayList<Integer> oneWay = new ArrayList<Integer>();
-		
+
 		oneWay.add(1);
 		result.add(oneWay);
-		result.re
+
 	}
 }
