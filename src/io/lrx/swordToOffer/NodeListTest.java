@@ -73,6 +73,5 @@ public class NodeListTest {
 		l.next = test.new ListNode(3);
 		ArrayList<Integer> arr = test.printListFromTailToHead(l);
 		System.out.println(arr);
-
 	}
 }

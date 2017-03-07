@@ -2,13 +2,15 @@ package com.lrx.sort;
 
 /**
  * @author lrx
- * @time 2017-2-26обнГ5:00:25
+ * @time 2017-2-26О©╫О©╫О©╫О©╫5:00:25
  */
 public class Selection2 {
 	private static void exec(Comparable a[], int i, int j) {
 		Comparable t = a[i];
 		a[i] = a[j];
 		a[j] = t;
+
+
 	}
 
 	private static boolean less(Comparable a, Comparable b) {
@@ -20,6 +22,8 @@ public class Selection2 {
 			System.out.print(a[i] + " ");
 		}
 		System.out.println();
+        System.out.print(22);
+
 	}
 
 	public static void sort(Comparable[] array) {
