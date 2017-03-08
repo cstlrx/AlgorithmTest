@@ -1,60 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f7e5fb7-7570-4c9b-8a39-d1609be678e6" name="Default" comment="替换包名">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/lenovo.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AlgorithmTest.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodingInterview/EightQueen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodingInterview/JudgePrime.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodingInterview/LinkedListIntegerAdd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodingInterview/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodingInterview/Main2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodingInterview/Package01.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodingInterview/RemoveRepeatNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodingInterview/TestJarPackage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sort/Bubble.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sort/Heap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sort/Insertion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sort/Insertion2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sort/MaxPQ.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sort/Merge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sort/Quick.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sort/Quick2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sort/Selection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sort/Selection2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sort/Shell.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sort/SortCompare.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/ArraySortRetateTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/BinaryTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/Convert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/FibonacciTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/FindGreatestSumOfSubArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/FindKthToTail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/FindPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/GetLeastNumbers_Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/HasSubtree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/IsPopOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/JumpFloorII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/JumpStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/MergeLinkList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/NodeListTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/NumberOf1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/OddEvenArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/Permutation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/PrintFromTopToBottom.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/QueueWithTwoStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/RandomListNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/ReverseListT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/SpaceReplace.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/TreePrinter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/TwoArrayFind.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/swordToOffer/VerifySquenceOfBST.java" />
+    <list default="true" id="6f7e5fb7-7570-4c9b-8a39-d1609be678e6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -169,8 +117,8 @@
       <file leaf-file-name="Quick.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sort/Quick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+            <state relative-caret-position="228">
+              <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -882,7 +830,7 @@
       <workItem from="1488849977863" duration="5161000" />
       <workItem from="1488865513290" duration="18140000" />
       <workItem from="1488950143812" duration="9408000" />
-      <workItem from="1488960189032" duration="10336000" />
+      <workItem from="1488960189032" duration="10618000" />
     </task>
     <task id="LOCAL-00001" summary="堆排 链表重复节点">
       <created>1488882098956</created>
@@ -898,11 +846,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488976735389</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="替换包名">
+      <created>1488977894845</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1488977894845</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53902000" />
+    <option name="totallyTimeSpent" value="54184000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -915,7 +870,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -932,7 +887,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18448023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18448023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1396,8 +1351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/Quick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+        <state relative-caret-position="228">
+          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
           <folding />
         </state>
       </provider>
