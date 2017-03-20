@@ -7,7 +7,7 @@ import java.util.Stack;
  */
 
 
-// ÅÐ¶ÏÁ´±íÊÇ·ñÊÇ»ØÎÄµÄ
+// ï¿½Ð¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½Ç»ï¿½ï¿½Äµï¿½
 public class JudgeLinkedListPalindrome {
     static boolean isPalindrom(Node head) {
         if(head.next == null)return true;
@@ -44,15 +44,15 @@ public class JudgeLinkedListPalindrome {
     public static void main(String[] args) {
         Node p = new Node(1);
         Node head = p;
-        p.next = new Node(2);
+        p.next = new Node(3);
         p = p.next;
         p.next = new Node(2);
         p = p.next;
-        p.next = new Node(2);
+        p.next = new Node(3);
         p = p.next;
-        p.next = new Node(2);
+        p.next = new Node(1);
         p = p.next;
-        // ÕâÖÖÐÎÊ½²»ÐÐ
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½
               //  .next = new Node(1).next = new Node(3).next = new Node(1);
 
         p = head;

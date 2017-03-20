@@ -10,7 +10,7 @@ import java.util.LinkedList;
 /**
  * Created by lrx on 2017/3/9.
  */
-// Í¼µÄ¹ã¶È±éÀú
+// ????????
 class GraphNode {
     int val;
 
@@ -19,11 +19,21 @@ class GraphNode {
         this.visited = false;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        GraphNode graphNode = (GraphNode) o;
+
+        return val == graphNode.val;
+    }
+
     boolean visited;
-}// ÁÚ½Ó±í
+}// ????
 class Graph {
-    int v;// ½ÚµãÊıÄ¿
-    int e;// ±ßÊıÄ¿
+    int v;// ??????
+    int e;// ?????
     ArrayList<LinkedList<GraphNode>> graph = new ArrayList<LinkedList<GraphNode>>();
 
     public Graph() {
@@ -46,7 +56,7 @@ class Graph {
         }
         e++;
     }
-    // »ñµÃÏàÁÚ½ÚµãµÄÊı×é
+    // ??????????????
     public Iterable<GraphNode> getAdj(GraphNode n) {
         for (LinkedList<GraphNode> l : graph) {
             if(!l.isEmpty() && l.get(0).val == n.val){
@@ -58,11 +68,35 @@ class Graph {
 }
 
 public class SearchGraph {
-    // ¹ã¶ÈÓÅÏÈËÑË÷
-    public static void search(Graph g) {
-        
+    // å¹¿åº¦ä¼˜å…ˆéå†
+    public static boolean search(Graph g , GraphNode start, GraphNode end) {
+        if(start.equals(end)) {
+            return true;
+        }
+        start.visited = true;
+        LinkedList<GraphNode> queue = new LinkedList<GraphNode>();
+        queue.add(start);
+        while (!queue.isEmpty()) {
+            GraphNode n = queue.removeFirst();
+            if(n != null) {
+                if(!n.visited) {
+                    if(n.equals(end))
+                        return true;
+                    else{
+                        n.visited = true;
+                    }
+                }
+                for (GraphNode node : g.getAdj(n)){
+                    if(!node.visited)
+                        queue.add(node);
+                }
+
+            }
+        }
+        return false;
     }
     public static void main(String[] args) {
+        // è¯¥å›¾1-5è”é€š 6 ç‹¬ç«‹èŠ‚ç‚¹
         Graph g = new Graph();
         GraphNode node1 = new GraphNode(1);
         g.addV(node1);
@@ -75,17 +109,19 @@ public class SearchGraph {
         g.addV(node4);
         GraphNode node5 = new GraphNode(5);
         g.addV(node5);
+        GraphNode node6 = new GraphNode(6);
+        g.addV(node6);
         g.addEdge(node1,node2);
         g.addEdge(node1,node3);
         g.addEdge(node2,node4);
         g.addEdge(node3,node5);
-        Iterable<GraphNode> i = g.getAdj(node2);
+//        Iterable<GraphNode> i = g.getAdj(node2);
 
-        Iterator<GraphNode> ite = i.iterator();
-        while (ite.hasNext()) {
-            System.out.print(ite.next().val + " ");
-        }
-
+//        Iterator<GraphNode> ite = i.iterator();
+//        while (ite.hasNext()) {
+//            System.out.print(ite.next().val + " ");
+//        }
+        System.out.println(search(g,node1,node6));
 
     }
 }
