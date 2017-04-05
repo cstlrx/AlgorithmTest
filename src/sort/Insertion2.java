@@ -2,7 +2,7 @@ package sort;
 
 /**
  * @author lrx
- * @time 2017-2-26обнГ4:30:05
+ * @time 2017-2-26О©╫О©╫О©╫О©╫4:30:05
  */
 public class Insertion2 {
 	private static void exec(Comparable a[], int i, int j) {
@@ -36,6 +36,7 @@ public class Insertion2 {
 		for (int i = 1; i < array.length; i++) {
 			Comparable t = array[i];
 			int j = i - 1;
+
 			for (; j >= 0; j--) {
 				if (less(t, array[j])) {
 					exec(array, j, j + 1);

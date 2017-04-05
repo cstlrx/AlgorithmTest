@@ -2,10 +2,10 @@ package sort;
 
 /**
  * @author lrx
- * @time 2016-12-20ÏÂÎç8:43:52
+ * @time 2016-12-20ï¿½ï¿½ï¿½ï¿½8:43:52
  */
 public class Merge {
-	private static Comparable[] aux;// ¹é²¢ÐèÒªµÄÊý×é,Ò»´Î¶¨Òå,¶à´ÎÊ¹ÓÃ
+	private static Comparable[] aux;// ï¿½é²¢ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,Ò»ï¿½Î¶ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½
 
 	public static void sort(Comparable[] a) {
 		aux = new Comparable[a.length];
@@ -23,9 +23,10 @@ public class Merge {
 		sort(a, lo, mid);
 		sort(a, mid + 1, hi);
 		merge(a, lo, mid, hi);
+
 	}
 
-	// ¹é²¢Á½¸öÓÐÐòÊý×é
+	// ï¿½é²¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	private static void merge(Comparable[] a, int lo, int mid, int hi) {
 		for (int i = lo; i < hi; i++) {
 			aux[i] = a[i];

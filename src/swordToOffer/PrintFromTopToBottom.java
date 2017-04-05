@@ -6,7 +6,7 @@ import java.util.Queue;
 
 /**
  * @author lrx
- * @time 2017-2-22обнГ5:09:24
+ * @time 2017-2-22О©╫О©╫О©╫О©╫5:09:24
  */
 class TreeNode {
 	int val = 0;
@@ -28,7 +28,6 @@ public class PrintFromTopToBottom {
 			return result;
 		Queue<TreeNode> que = new LinkedList<TreeNode>();
 
-		// result.add(root.val);
 		que.add(root);
 		while (!que.isEmpty()) {
 			TreeNode t = que.remove();

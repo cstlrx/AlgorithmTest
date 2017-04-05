@@ -56,23 +56,23 @@ public class Main {
         //Case #1: 18 11
         //Case #1: 11 18
 
+        {
+//            DecimalFormat df = new DecimalFormat("#.###");
+//            while (sc.hasNext()) {
+//                int L = sc.nextInt();
+//                int R = sc.nextInt();
+//                double x = 0;
+//                double y = 0;
+//                double zhou = Math.PI * 2 * R;
+//                double s = L % (zhou);
+//
+//                x = Math.cos(s / R) * R;
+//                  y = Math.sin(s / R) * R;
+//
+//                System.out.println(df.format(x) + " " + df.format(-y));
+//                System.out.println(df.format(x) + " " + df.format(y));
 
-//        DecimalFormat df = new DecimalFormat("#.###");
-//        while (sc.hasNext()) {
-//            int L = sc.nextInt();
-//            int R = sc.nextInt();
-//            double x = 0;
-//            double y = 0;
-//            double zhou = Math.PI * 2 * R;
-//            double s = L % (zhou);
-//
-//            x = Math.cos(s/R) * R;
-//            y = Math.sin(s/R) * R;
-//
-//            System.out.println(df.format(x) + " " + df.format(-y));
-//            System.out.println(df.format(x) + " " + df.format(y));
-//
-//        }
+        }
 
     }
 
